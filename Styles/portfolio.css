@@ -103,7 +103,7 @@ max-width: 580px;
 }
 /* section style */
 .sectiion-title {
-   font-size: 40px;
+   font-size: 35px;
    font-weight: bold;
    color: #181818;
 
@@ -156,4 +156,55 @@ main section {
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume section styles */
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+     margin-top: 100px;
+    text-align: center;
+
+}
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.resumecolumn-title {
+    font-size: 30px;
+    font-weight: 700;
+     margin-top: 100px;
+    margin-bottom: 25px;
+
+}
+
+.experience-title {
+    font-size: 25px;
+    font-weight: 700;
+     margin-top: 30px;
+    margin-bottom: 10px;
+   
+}
+
+.experience-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.experience-description, .experience-sub-title {
+    color: #757575;
+}
+
+.resume hr{
+    margin: 30px 5px;
+
+}
+
+.resume-download-cv {
+    margin-top: 50px;
 }
